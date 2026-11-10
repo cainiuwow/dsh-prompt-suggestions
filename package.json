@@ -1,0 +1,15 @@
+{
+  "name": "dsh-prompt-suggestions",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "HTTP host that predicts the next DeepSeek Harness composer prompt from the current input.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test"
+  }
+}
